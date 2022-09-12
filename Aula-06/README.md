@@ -15,7 +15,7 @@
 
 ## Para rodar o projeto
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Para rodar o projeto, execute os seguintes comandos abaixo:
 
 ```bash
 #Install NodeJS
@@ -27,10 +27,3 @@ $ npm install
 # Run 
 $ npm start
 ```
-
-## Credits
-
-This software uses the following open source packages:
-
-- [Node.js](https://nodejs.org/)
-
