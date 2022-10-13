@@ -19,20 +19,18 @@ it('Caso válido 1', () => {
     expect(result).toEqual(undefined);
 });
 
-it('Caso inválido 0 - Duplicado', () => {
+it('Caso inválido 0', () => {
     const result = Validation.create({
         modelo: "A5",
-        marca: "Audi",
         ano: "2018"
     });
-    expect(result.name).toEqual(Constants.ErrorDuplicate.name);
+    expect(result).toEqual(Constants.ErrorValidation);
 });
 
-it('Caso inválido 1 - Duplicado', () => {
+it('Caso inválido 1', () => {
     const result = Validation.create({
         modelo: "I8",
         marca: "Bmw",
-        ano: "2020"
     });
-    expect(result.name).toEqual(Constants.ErrorDuplicate.name);
+    expect(result).toEqual(Constants.ErrorValidation);
 });
